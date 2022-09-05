@@ -40,3 +40,7 @@ Attempt 2: Adding Additional neurons to hidden layers and additional hidden laye
 Attempt 3: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy of the model went up even more to 65%.
 
 ![image](https://user-images.githubusercontent.com/103547108/188462053-05d1d4dd-c9c1-46b4-a3a7-12ceb6dd178a.png)
+
+
+## Summary
+The model ended up with the accuracy score of 65% after optimization. The initial neural network had a accuracy score of 56%. This loss in accuracy can be explained from the fact that the model overfitted. Furthermore, we could further also optimize our neural network by removing more features or simply adding more data to the dataset to increase accuracy. Since our accuracy score was not particularly up to the standard with neural networks, we could have used the Random Forest classifiers. This is because random forest is a robust and accurate model due to their sufficient number of estimators and tree depth. Also the random forest models have a faster performance than neural networks and could have avoided the data from being overfitted.
